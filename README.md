@@ -5,7 +5,7 @@ The very first DummyBoard: Xilinx APSoC
 
 ## Parts
 This is not the entire parts list.
-#### APSoC: [XC7Z020-2CLG400I](https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html#documentation)  
+#### APSoC: [XC7Z020-2CLG400I](https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html#documentation) (Xilinx link, check Datasheets and User Guides)  
 [131€  APSoC	CORTEX-A9 ARTIX-7 400BGA  on digikey.ch](https://www.digikey.ch/product-detail/de/xilinx-inc/XC7Z020-2CLG400I/122-1848-ND/3925761)   
 Compatibility:  
 - RAM:	16-bit or 32-bit interfaces to DDR3, DDR3L, DDR2, or LPDDR2 memories  
