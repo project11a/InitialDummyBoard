@@ -30,6 +30,18 @@ Giving a base idea on the APSoCs connections.
   - None
 - 2 UART:
   - None
+  
+#### Banks (Check UG585 page 54: ch. 2.5.4)
+500:
+- MIO 00...08: 
+- MIO 09...16:
+
+501:
+- MIO 16...27: Ethernet 0
+- MIO 28...39: USB 0
+- MIO 40...45: SDIO 0 **requires this location to be bootable**
+- MIO 46...51: SPI 1
+- MIO 52...53:
 
 ## PCB Manufacturing
 Turns out that we need things!  
