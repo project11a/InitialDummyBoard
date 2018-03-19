@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.3  Date: Mon Nov 20 13:56:27 2017
+#encoding utf-8
+#
+# D
+#
+DEF D D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D" 0 -100 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+Diode_*
+D-Pak_TO252AA
+*SingleDiode
+*SingleDiode*
+*_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -30 -40  -30 40 N
+P 4 0 1 0  30 -40  -30 0  30 40  30 -40 F
+X A 1 100 0 70 L 50 50 1 1 P
+X K 2 -100 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ZENER
+#
+DEF ZENER D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ZENER" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+D?
+SO*
+SM*
+$ENDFPLIST
+DRAW
+P 4 0 1 8  -60 40  -40 20  -40 -20  -20 -40 N
+P 4 0 1 0  40 40  -40 0  40 -40  40 40 F
+X A 1 100 0 60 L 40 40 1 1 P
+X K 2 -100 0 60 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

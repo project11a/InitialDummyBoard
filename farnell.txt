@@ -1,0 +1,32 @@
+###############
+### QUERIES ###
+###############
+
+APSOC: please keep an eye on the package
+-				http://ch.farnell.com/w/c/halbleiter-ics/prl/ergebnisse?st=xc7z020&sort=P_ATT_BASE_VALUE_1002040_DE_DE|1
+
+DDR3 ICs: 1x 32bit or 2x 16bit
+256Mbit x 16			http://ch.farnell.com/c/halbleiter-ics/speicherbausteine/dram?speicherkonfiguration-dram=256m-x-16bit
+
+#############
+### PARTS ###
+#############
+CODE			Order No. 	Count	URL
+
+## digi
+XC7Z020-3CLG484E	2828945		0	http://ch.farnell.com/xilinx/xc7z020-3clg484e/psoc-arm-cortex-a9-866mhz-csbga/dp/2828945?st=xc7z020
+XC7Z020-2CLG400I	2760134		1	http://ch.farnell.com/xilinx/xc7z020-2clg400i/psoc-arm-cortex-a9-766mhz-bga/dp/2760134?st=xc7z
+IS43TR16256A-125KBLI	2787045		2	http://ch.farnell.com/integrated-silicon-solution-issi/is43tr16256a-125kbli/dram-256m-x-16bit-bga-96/dp/2787045
+TXS02612RTWR		2335617		1	http://ch.farnell.com/texas-instruments/txs02612rtwr/sdio-expander-w-volt-translator/dp/2335617?st=TXS02612
+KSZ9031RNXCC		2809921		1	http://ch.farnell.com/microchip/ksz9031rnxcc/ethernet-transceiver-1gbps-qfn/dp/2809921?st=KSZ9031
+USB3320C-EZK		2292615		1	http://ch.farnell.com/microchip/usb3320c-ezk/ic-multifreq-usb2-0-ulpi-phy-32vqfn/dp/2292615
+MIC2025-1YMM		2775045		1	http://ch.farnell.com/microchip/mic2025-1ymm/leistungsschalter-5-5v-msop-8/dp/2775045?st=mic2025
+CM1213A-02SO		2533252		1	http://ch.farnell.com/on-semiconductor/cm1213a-02so/esd-schutzdiode-3-3v-0-85pf/dp/2533252?st=cm1213a
+
+## pmic
+TPS53355DQPT		2057099		1	http://ch.farnell.com/texas-instruments/tps53355dqpt/buck-sync-30a-22son/dp/2057099?st=TPS53355
+TPS65400RGZT		2471166		1	http://ch.farnell.com/texas-instruments/tps65400rgzt/power-management-einheit-vqfn/dp/2471166?st=TPS65400
+
+## connector
+RJ45					1
+miniUSB					1

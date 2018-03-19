@@ -1,10 +1,6 @@
-update=Thu 16 Nov 2017 04:57:13 PM CET
+update=Tue 13 Mar 2018 08:49:13 AM CET
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -29,6 +25,13 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=lib
+LibDir=../lib
 [eeschema/libraries]
-LibName1=lib/new
+LibName1=/home/tim/InitialDummyBoard/KiCad/lib/debug
+LibName2=/home/tim/InitialDummyBoard/KiCad/lib/digi
+LibName3=/home/tim/InitialDummyBoard/KiCad/lib/passive
+LibName4=/home/tim/InitialDummyBoard/KiCad/lib/power
+LibName5=/home/tim/InitialDummyBoard/KiCad/lib/semi
+LibName6=conn
+[general]
+version=1

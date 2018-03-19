@@ -1,0 +1,328 @@
+EESchema Schematic File Version 2
+LIBS:debug
+LIBS:digi
+LIBS:passive
+LIBS:power
+LIBS:semi
+LIBS:conn
+LIBS:idb-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L xc7z020clg400 U101
+U 6 1 5A97D008
+P 9750 1350
+F 0 "U101" H 9950 1600 60  0000 L CNN
+F 1 "xc7z020clg400" H 9950 1500 60  0000 L CNN
+F 2 "" H 9750 1350 60  0001 C CNN
+F 3 "" H 9750 1350 60  0001 C CNN
+	6    9750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L microSD J?
+U 1 1 5A9CFD09
+P 3650 6450
+F 0 "J?" H 3350 7100 60  0000 C CNN
+F 1 "microSD" H 3650 5900 60  0000 C CNN
+F 2 "" H 3950 5850 60  0000 C CNN
+F 3 "" H 3550 6450 60  0000 C CNN
+	1    3650 6450
+	1    0    0    -1  
+$EndComp
+Text Label 1100 6600 2    60   ~ 0
+SDIO_CLK
+Text Label 1100 6500 2    60   ~ 0
+SDIO_CMD
+Text Label 1100 6400 2    60   ~ 0
+SDIO_D3
+Text Label 1100 6300 2    60   ~ 0
+SDIO_D2
+Text Label 1100 6200 2    60   ~ 0
+SDIO_D1
+Text Label 1100 6100 2    60   ~ 0
+SDIO_D0
+$Comp
+L GND #PWR?
+U 1 1 5A9CFF65
+P 2600 5850
+F 0 "#PWR?" H 2600 5600 50  0001 C CNN
+F 1 "GND" H 2600 5700 50  0000 C CNN
+F 2 "" H 2600 5850 50  0000 C CNN
+F 3 "" H 2600 5850 50  0000 C CNN
+	1    2600 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 6850 2600 6850
+Wire Wire Line
+	2600 6850 2600 5850
+Wire Wire Line
+	3100 5950 2600 5950
+Connection ~ 2600 5950
+$Comp
+L +3.3V #PWR?
+U 1 1 5A9CFFE7
+P 2900 6900
+F 0 "#PWR?" H 2900 6990 20  0001 C CNN
+F 1 "+3.3V" H 2900 6990 30  0000 C CNN
+F 2 "" H 2900 6900 60  0000 C CNN
+F 3 "" H 2900 6900 60  0000 C CNN
+	1    2900 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 6900 2900 6750
+Wire Wire Line
+	2900 6750 3100 6750
+Text Label 9750 3750 2    60   ~ 0
+SDIO_CLK
+Text Label 9750 3850 2    60   ~ 0
+SDIO_CMD
+Text Label 9750 3950 2    60   ~ 0
+SDIO_D3
+Text Label 9750 4050 2    60   ~ 0
+SDIO_D2
+Text Label 9750 4150 2    60   ~ 0
+SDIO_D1
+Text Label 9750 4250 2    60   ~ 0
+SDIO_D0
+Wire Wire Line
+	9750 5350 9700 5350
+Wire Wire Line
+	9700 5350 9700 5450
+Wire Wire Line
+	9700 5450 9500 5450
+Wire Wire Line
+	9600 5450 9600 5400
+$Comp
+L GND #PWR?
+U 1 1 5A9D0139
+P 8700 5800
+F 0 "#PWR?" H 8700 5550 50  0001 C CNN
+F 1 "GND" H 8700 5650 50  0000 C CNN
+F 2 "" H 8700 5800 50  0000 C CNN
+F 3 "" H 8700 5800 50  0000 C CNN
+	1    8700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A9D0160
+P 9350 5450
+F 0 "R?" V 9430 5450 50  0000 C CNN
+F 1 "1k" V 9350 5450 50  0000 C CNN
+F 2 "" V 9280 5450 50  0000 C CNN
+F 3 "" H 9350 5450 50  0000 C CNN
+	1    9350 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5A9D0340
+P 8950 5450
+F 0 "R?" V 9030 5450 50  0000 C CNN
+F 1 "1k" V 8950 5450 50  0000 C CNN
+F 2 "" V 8880 5450 50  0000 C CNN
+F 3 "" H 8950 5450 50  0000 C CNN
+	1    8950 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 5450 9100 5450
+Connection ~ 9600 5450
+Wire Wire Line
+	9150 5150 9150 5700
+Wire Wire Line
+	9150 5150 9750 5150
+Connection ~ 9150 5450
+Wire Wire Line
+	8800 5450 8700 5450
+Wire Wire Line
+	8700 5450 8700 5800
+$Comp
+L C C?
+U 1 1 5A9D040C
+P 8950 5700
+F 0 "C?" V 9000 5750 50  0000 L CNN
+F 1 "10nF" V 9050 5750 50  0000 L CNN
+F 2 "" H 8988 5550 50  0000 C CNN
+F 3 "" H 8950 5700 50  0000 C CNN
+	1    8950 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 5700 9100 5700
+Wire Wire Line
+	8800 5700 8700 5700
+Connection ~ 8700 5700
+Text Label 9750 1350 2    60   ~ 0
+ETH_TX_CLK
+Text Label 9750 1450 2    60   ~ 0
+ETH_TX0
+Text Label 9750 1550 2    60   ~ 0
+ETH_TX1
+Text Label 9750 1650 2    60   ~ 0
+ETH_TX2
+Text Label 9750 1750 2    60   ~ 0
+ETH_TX3
+Text Label 9750 1850 2    60   ~ 0
+ETH_TX_CTL
+Text Label 9750 1950 2    60   ~ 0
+ETH_RX_CLK
+Text Label 9750 2050 2    60   ~ 0
+ETH_RX0
+Text Label 9750 2150 2    60   ~ 0
+ETH_RX1
+Text Label 9750 2250 2    60   ~ 0
+ETH_RX2
+Text Label 9750 2350 2    60   ~ 0
+ETH_RX3
+Text Label 9750 2450 2    60   ~ 0
+ETH_RX_CTL
+$Comp
+L TXS02612 U?
+U 1 1 5AA7CF13
+P 1650 6200
+F 0 "U?" H 1400 6600 60  0000 C CNN
+F 1 "TXS02612" H 1650 4850 60  0000 C CNN
+F 2 "" H 1650 7000 60  0000 C CNN
+F 3 "" H 1650 7000 60  0000 C CNN
+	1    1650 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6100 3100 6100
+Wire Wire Line
+	3100 6200 2200 6200
+Wire Wire Line
+	2200 6300 3100 6300
+Wire Wire Line
+	3100 6400 2200 6400
+Wire Wire Line
+	2200 6500 3100 6500
+Wire Wire Line
+	3100 6600 2200 6600
+Text Label 9750 2550 2    60   ~ 0
+USB_D4
+Text Label 9750 2650 2    60   ~ 0
+USB_DIR
+Text Label 9750 2750 2    60   ~ 0
+USB_STP
+Text Label 9750 2850 2    60   ~ 0
+USB_NXT
+Text Label 9750 2950 2    60   ~ 0
+USB_D0
+Text Label 9750 3050 2    60   ~ 0
+USB_D1
+Text Label 9750 3150 2    60   ~ 0
+USB_D2
+Text Label 9750 3250 2    60   ~ 0
+USB_D3
+Text Label 9750 3350 2    60   ~ 0
+USB_CLK
+Text Label 9750 3450 2    60   ~ 0
+USB_D5
+Text Label 9750 3550 2    60   ~ 0
+USB_D6
+Text Label 9750 3650 2    60   ~ 0
+USB_D7
+Text Label 9750 4950 2    60   ~ 0
+ETH_MDC
+Text Label 9750 5050 2    60   ~ 0
+ETH_MDIO
+$Comp
+L +1.8V #PWR?
+U 1 1 5AA8E9DD
+P 9600 5400
+F 0 "#PWR?" H 9600 5490 20  0001 C CNN
+F 1 "+1.8V" H 9600 5490 30  0000 C CNN
+F 2 "" H 9600 5400 60  0000 C CNN
+F 3 "" H 9600 5400 60  0000 C CNN
+	1    9600 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9750 4350
+NoConn ~ 9750 4450
+NoConn ~ 9750 4550
+NoConn ~ 9750 4650
+NoConn ~ 9750 4750
+NoConn ~ 9750 4850
+$Comp
+L +1.8V #PWR?
+U 1 1 5AA8EAFB
+P 1050 5900
+F 0 "#PWR?" H 1050 5990 20  0001 C CNN
+F 1 "+1.8V" H 1050 5990 30  0000 C CNN
+F 2 "" H 1050 5900 60  0000 C CNN
+F 3 "" H 1050 5900 60  0000 C CNN
+	1    1050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5AA8EB1B
+P 2250 5900
+F 0 "#PWR?" H 2250 5990 20  0001 C CNN
+F 1 "+3.3V" H 2250 5990 30  0000 C CNN
+F 2 "" H 2250 5900 60  0000 C CNN
+F 3 "" H 2250 5900 60  0000 C CNN
+	1    2250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5900 2250 6750
+Wire Wire Line
+	2250 5950 2200 5950
+Wire Wire Line
+	1100 5950 1050 5950
+Wire Wire Line
+	1050 5950 1050 5900
+Text Notes 3300 7300 2    60   ~ 0
+DNP Resistor?
+$Comp
+L GND #PWR?
+U 1 1 5AA8EC30
+P 1050 7450
+F 0 "#PWR?" H 1050 7200 50  0001 C CNN
+F 1 "GND" H 1050 7300 50  0000 C CNN
+F 2 "" H 1050 7450 50  0000 C CNN
+F 3 "" H 1050 7450 50  0000 C CNN
+	1    1050 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6900 1050 7450
+Wire Wire Line
+	1050 7400 1100 7400
+Wire Wire Line
+	1050 7300 1100 7300
+Connection ~ 1050 7400
+Wire Wire Line
+	1050 7200 1100 7200
+Connection ~ 1050 7300
+Wire Wire Line
+	1050 6900 1100 6900
+Connection ~ 1050 7200
+Wire Wire Line
+	2250 6750 2200 6750
+Connection ~ 2250 5950
+NoConn ~ 2200 6900
+NoConn ~ 2200 7000
+NoConn ~ 2200 7100
+NoConn ~ 2200 7200
+NoConn ~ 2200 7300
+NoConn ~ 2200 7400
+$EndSCHEMATC

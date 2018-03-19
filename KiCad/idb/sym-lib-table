@@ -1,3 +1,7 @@
 (sym_lib_table
-  (lib (name xilinx7)(type Legacy)(uri ${KIPRJMOD}/lib/xilinx7.lib)(options "")(descr ""))
+  (lib (name debug)(type Legacy)(uri /home/tim/InitialDummyBoard/KiCad/lib/debug.lib)(options "")(descr ""))
+  (lib (name digi)(type Legacy)(uri /home/tim/InitialDummyBoard/KiCad/lib/digi.lib)(options "")(descr ""))
+  (lib (name passive)(type Legacy)(uri /home/tim/InitialDummyBoard/KiCad/lib/passive.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri /home/tim/InitialDummyBoard/KiCad/lib/power.lib)(options "")(descr ""))
+  (lib (name semi)(type Legacy)(uri /home/tim/InitialDummyBoard/KiCad/lib/semi.lib)(options "")(descr ""))
 )
